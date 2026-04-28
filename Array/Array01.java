@@ -8,7 +8,7 @@ public class Array01{
 
         // Declarando e reservando um espaço de índice 3 (inteiros) para memória (Caso não tenha valor inserido, será apenas reference.)
         int [] idades = new int[3];
-
+        // Reference '''''' Objeto;
 
         // Inserindo os valores nos indices com base no valor escolhido acima.
         idades[0] = 20;
