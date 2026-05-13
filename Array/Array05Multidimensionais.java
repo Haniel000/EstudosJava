@@ -27,8 +27,19 @@ public class Array05Multidimensionais {
         // Pegando primeiro valor da posição (i, o primeiro colchetes[]), em seguida
         // pegando a linha (j, o segundo colchetes[])
         for (int i = 0; i < meses.length; i++) {
-            for (int j = 0; j < meses[0].length; j++) {
+            for (int j = 0; j < meses[i].length; j++) {
                 System.out.println("Posição [" + i + "][" + j + "] = " + meses[i][j]);
+            }
+        }
+
+        System.out.println("-------------------------");
+
+        // Caso seja necessário fazer usando Foreach
+        // Resumindo, arrBase pra pegar os valores da Posição 0, 1, 2. E usando o num
+        // pra pegar a linha 0, 1, 2, dentro da posição x
+        for (int[] arrBase : meses) {
+            for (int num : arrBase) {
+                System.out.println(num);
             }
         }
 
