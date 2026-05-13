@@ -17,7 +17,7 @@ public class Array03Length {
 
         for (int i = 0; i < nomes.length; i++) {
             System.out.println("Insira um nome: ");
-            String inserir = sc.next();
+            String inserir = sc.nextLine();
             nomes[i] = inserir;
             System.out.println("Nome: " + nomes[i] + " está na posição: " + (i + 1) + " da fila");
         }
