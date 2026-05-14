@@ -9,8 +9,8 @@ public class Array06Multidimensionais02 {
         arrayInt[2] = new int[6];
 
         // Caso queira inicializar direto (usando esses array de cima de base)
-        int[][] arrayInt2 = { { 0, 0 }, { 1, 2, 3, }, { 1, 2, 3, 4, 5, 6, } };
-
+        int[][] arrayInt2 = {{0, 0}, {1, 2, 3,}, {1, 2, 3, 4, 5, 6,}};
+        System.out.println(arrayInt2);
         // Pegando a primeira linha dos arrays [3] pra depois pegar os numeros dentro
         // [3][]
         for (int[] arrayBase : arrayInt) {
