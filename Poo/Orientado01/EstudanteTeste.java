@@ -1,4 +1,6 @@
-import DAO.Estudante;
+package Orientado01;
+
+import Orientado01.DAO.Estudante;
 
 public class EstudanteTeste {
     public static void main(String[] args) {
@@ -8,8 +10,9 @@ public class EstudanteTeste {
         estudante.idade = 18;
         estudante.sexo = 'M';
 
-        System.out.println("Nome: " + estudante.nome);
+        System.out.println("Nome : " + estudante.nome);
         System.out.println("Idade: " + estudante.idade);
         System.out.println("Sexo: " + estudante.sexo);
     }
+
 }
