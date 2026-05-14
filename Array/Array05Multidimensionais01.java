@@ -1,4 +1,4 @@
-public class Array05Multidimensionais {
+public class Array05Multidimensionais01 {
     public static void main(String[] args) {
         // 1,2,3,4,5 meses
         // 31, 28, 31, 30 Dias
